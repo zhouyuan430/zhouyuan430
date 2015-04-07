@@ -4,7 +4,7 @@
   <title><![CDATA[Yzhou's Blog]]></title>
   <link href="http://zhouyuan430.github.io/atom.xml" rel="self"/>
   <link href="http://zhouyuan430.github.io/"/>
-  <updated>2015-04-08T01:07:40+08:00</updated>
+  <updated>2015-04-08T01:13:45+08:00</updated>
   <id>http://zhouyuan430.github.io/</id>
   <author>
     <name><![CDATA[Yzhou]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My First Octopress Blog]]></title>
+    <link href="http://zhouyuan430.github.io/blog/2015/04/08/my-first-octopress-blog/"/>
+    <updated>2015-04-08T01:09:25+08:00</updated>
+    <id>http://zhouyuan430.github.io/blog/2015/04/08/my-first-octopress-blog</id>
+    <content type="html"><![CDATA[<p>终于搞好了</p>
+]]></content>
+  </entry>
   
 </feed>
