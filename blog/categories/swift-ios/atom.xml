@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Swift,ios | Yzhou's Blog]]></title>
+  <link href="http://zhouyuan430.github.io/blog/categories/swift-ios/atom.xml" rel="self"/>
+  <link href="http://zhouyuan430.github.io/"/>
+  <updated>2015-04-13T01:24:21+08:00</updated>
+  <id>http://zhouyuan430.github.io/</id>
+  <author>
+    <name><![CDATA[Yzhou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Swift学习资源大合集]]></title>
+    <link href="http://zhouyuan430.github.io/blog/2015/04/13/swiftstudysource/"/>
+    <updated>2015-04-13T01:03:21+08:00</updated>
+    <id>http://zhouyuan430.github.io/blog/2015/04/13/swiftstudysource</id>
+    <content type="html"><![CDATA[<h3><a href="https://developer.apple.com/swift/">swift 介绍</a></h3>
+
+<h3>来自 Apple 官方</h3>
+]]></content>
+  </entry>
+  
+</feed>

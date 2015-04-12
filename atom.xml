@@ -4,7 +4,7 @@
   <title><![CDATA[Yzhou's Blog]]></title>
   <link href="http://zhouyuan430.github.io/atom.xml" rel="self"/>
   <link href="http://zhouyuan430.github.io/"/>
-  <updated>2015-04-12T20:24:37+08:00</updated>
+  <updated>2015-04-13T01:24:21+08:00</updated>
   <id>http://zhouyuan430.github.io/</id>
   <author>
     <name><![CDATA[Yzhou]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Swift学习资源大合集]]></title>
+    <link href="http://zhouyuan430.github.io/blog/2015/04/13/swiftstudysource/"/>
+    <updated>2015-04-13T01:03:21+08:00</updated>
+    <id>http://zhouyuan430.github.io/blog/2015/04/13/swiftstudysource</id>
+    <content type="html"><![CDATA[<h3><a href="https://developer.apple.com/swift/">swift 介绍</a></h3>
+
+<h3>来自 Apple 官方</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tableview小细节]]></title>
@@ -37,8 +48,10 @@
 
 <h4>3.设置分界线颜色</h4>
 
-<pre><code>tableview.separatorColor = [UIColor clearColor];//无颜色
-</code></pre>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">tableview</span><span class="p">.</span><span class="n">separatorColor</span> <span class="o">=</span> <span class="p">[</span><span class="bp">UIColor</span> <span class="n">clearColor</span><span class="p">];</span><span class="c1">//无颜色</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h4>4.实现右侧的小灰色箭头</h4>
 
