@@ -4,7 +4,7 @@
   <title><![CDATA[Yzhou's Blog]]></title>
   <link href="http://zhouyuan430.github.io/atom.xml" rel="self"/>
   <link href="http://zhouyuan430.github.io/"/>
-  <updated>2015-04-12T13:38:10+08:00</updated>
+  <updated>2015-04-12T20:04:16+08:00</updated>
   <id>http://zhouyuan430.github.io/</id>
   <author>
     <name><![CDATA[Yzhou]]></name>
@@ -40,8 +40,10 @@
 
 <p>只要将cell的accessoryType属性设置为<code>UITableViewCellAccessoryDisclosureIndicator</code>就可以了。</p>
 
-<pre><code>cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
-</code></pre>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">accessoryType</span><span class="o">=</span><span class="n">UITableViewCellAccessoryDisclosureIndicator</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>其他格式：像对勾、删除什么类似，更改一下属性值即可</p>
 
@@ -121,6 +123,8 @@ titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath{
 //跳到指的row or section
 [tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
 </code></pre>
+
+<p>&#8220;`</p>
 ]]></content>
   </entry>
   
