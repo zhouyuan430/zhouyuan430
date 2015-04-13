@@ -4,7 +4,7 @@
   <title><![CDATA[Yzhou's Blog]]></title>
   <link href="http://zhouyuan430.github.io/atom.xml" rel="self"/>
   <link href="http://zhouyuan430.github.io/"/>
-  <updated>2015-04-13T23:39:55+08:00</updated>
+  <updated>2015-04-13T23:42:06+08:00</updated>
   <id>http://zhouyuan430.github.io/</id>
   <author>
     <name><![CDATA[Yzhou]]></name>
@@ -28,7 +28,7 @@
 来自 Apple 官方</p>
 
 <p><a href="http://zh.lucida.me/blog/an-introduction-to-swift/">Swift 简介(@peng_gong)</a><br/>
-一篇不错的中文简介</p>
+一篇不错的中文简介<!--more--></p>
 
 <h3>Swift 教程</h3>
 
