@@ -4,7 +4,7 @@
   <title><![CDATA[Yzhou's Blog]]></title>
   <link href="http://zhouyuan430.github.io/atom.xml" rel="self"/>
   <link href="http://zhouyuan430.github.io/"/>
-  <updated>2015-04-14T11:37:59+08:00</updated>
+  <updated>2015-04-14T11:41:53+08:00</updated>
   <id>http://zhouyuan430.github.io/</id>
   <author>
     <name><![CDATA[Yzhou]]></name>
@@ -75,14 +75,14 @@
     <link href="http://zhouyuan430.github.io/blog/2015/04/12/tableviewdetail/"/>
     <updated>2015-04-12T13:23:36+08:00</updated>
     <id>http://zhouyuan430.github.io/blog/2015/04/12/tableviewdetail</id>
-    <content type="html"><![CDATA[<h4>1. 取消cell点击变色</h4>
+    <content type="html"><![CDATA[<h4>取消cell点击变色</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">selectionStyle</span> <span class="o">=</span> <span class="n">UITableViewCellSe</span><span class="p">;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>2. 禁止边缘滑动</h4>
+<h4>禁止边缘滑动</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">tableview</span><span class="p">.</span><span class="n">bounces</span> <span class="o">=</span> <span class="nb">NO</span><span class="p">;</span>
@@ -92,14 +92,14 @@
 <!--more-->
 
 
-<h4>3.设置分界线颜色</h4>
+<h4>设置分界线颜色</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">tableview</span><span class="p">.</span><span class="n">separatorColor</span> <span class="o">=</span> <span class="p">[</span><span class="bp">UIColor</span> <span class="n">clearColor</span><span class="p">];</span><span class="c1">//无颜色</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>4.实现右侧的小灰色箭头</h4>
+<h4>实现右侧的小灰色箭头</h4>
 
 <p>只要将cell的accessoryType属性设置为<code>UITableViewCellAccessoryDisclosureIndicator</code>就可以了。</p>
 
@@ -110,14 +110,14 @@
 
 <p>其他格式：像对勾、删除什么类似，更改一下属性值即可</p>
 
-<h4>5.去掉底部多余分割线</h4>
+<h4>去掉底部多余分割线</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="nb">self</span><span class="p">.</span><span class="n">tableView</span><span class="p">.</span><span class="n">tableFooterView</span><span class="o">=</span><span class="p">[[</span><span class="bp">UIView</span> <span class="n">alloc</span><span class="p">]</span><span class="n">init</span><span class="p">];</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>5.UITableView各种Method</h4>
+<h4>UITableView各种Method</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>

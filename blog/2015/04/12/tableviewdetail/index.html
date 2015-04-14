@@ -9,10 +9,10 @@
   <meta name="author" content="Yzhou">
 
   
-  <meta name="description" content="1. 取消cell点击变色 1
-cell.selectionStyle = UITableViewCellSe; 2. 禁止边缘滑动 1
-tableview.bounces = NO; 3.设置分界线颜色 1
-tableview.separatorColor = [UIColor &hellip;">
+  <meta name="description" content="取消cell点击变色 1
+cell.selectionStyle = UITableViewCellSe; 禁止边缘滑动 1
+tableview.bounces = NO; 设置分界线颜色 1
+tableview.separatorColor = [UIColor clearColor];// &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -86,14 +86,14 @@ tableview.separatorColor = [UIColor &hellip;">
   </header>
 
 
-<div class="entry-content"><h4>1. 取消cell点击变色</h4>
+<div class="entry-content"><h4>取消cell点击变色</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">selectionStyle</span> <span class="o">=</span> <span class="n">UITableViewCellSe</span><span class="p">;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>2. 禁止边缘滑动</h4>
+<h4>禁止边缘滑动</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">tableview</span><span class="p">.</span><span class="n">bounces</span> <span class="o">=</span> <span class="nb">NO</span><span class="p">;</span>
@@ -103,14 +103,14 @@ tableview.separatorColor = [UIColor &hellip;">
 <!--more-->
 
 
-<h4>3.设置分界线颜色</h4>
+<h4>设置分界线颜色</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">tableview</span><span class="p">.</span><span class="n">separatorColor</span> <span class="o">=</span> <span class="p">[</span><span class="bp">UIColor</span> <span class="n">clearColor</span><span class="p">];</span><span class="c1">//无颜色</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>4.实现右侧的小灰色箭头</h4>
+<h4>实现右侧的小灰色箭头</h4>
 
 <p>只要将cell的accessoryType属性设置为<code>UITableViewCellAccessoryDisclosureIndicator</code>就可以了。</p>
 
@@ -121,14 +121,14 @@ tableview.separatorColor = [UIColor &hellip;">
 
 <p>其他格式：像对勾、删除什么类似，更改一下属性值即可</p>
 
-<h4>5.去掉底部多余分割线</h4>
+<h4>去掉底部多余分割线</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="nb">self</span><span class="p">.</span><span class="n">tableView</span><span class="p">.</span><span class="n">tableFooterView</span><span class="o">=</span><span class="p">[[</span><span class="bp">UIView</span> <span class="n">alloc</span><span class="p">]</span><span class="n">init</span><span class="p">];</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>5.UITableView各种Method</h4>
+<h4>UITableView各种Method</h4>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
